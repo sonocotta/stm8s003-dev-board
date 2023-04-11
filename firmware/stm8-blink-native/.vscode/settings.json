@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "arduino.h": "c",
+        "stm8s103f3.h": "c",
+        "ws2812_driver.h": "c"
+    }
+}
