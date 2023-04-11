@@ -13,6 +13,8 @@ Additionally, the STM8S003 development board is compatible with the Arduino IDE,
 
 Overall, the STM8S003 development board is an excellent choice for anyone who needs a low-cost and easy-to-use development platform that offers high performance and flexibility. Whether you are working on a hobby project or a professional application, this board has everything you need to get started quickly and easily.
 
+![image](https://user-images.githubusercontent.com/5459747/231289408-4b4df2d3-ba5c-4a9d-8f13-00d72a6a58a7.png)
+
 ## Features
 
 - [STM8S003F3](https://www.st.com/en/microcontrollers-microprocessors/stm8s003f3.html) 8-bit MCU in a 20-pin package
@@ -45,7 +47,14 @@ TO BE ADDED
 - How to flash
 - Using with Arduino IDE
 - Using with Platformio IDE
+- Firmware samples
+  - UART
+  - RGB led
+  - Debugging
+  
 
 ## Hardware
+
+Board schematic can be foun in [hardware](/hardware) section
 
 ## Where to buy
