@@ -35,11 +35,22 @@ STM8S003F3 is an entry-level 8-bit MCU in the STM8 line. Generally they offer wh
 
 ## Board Pinout
 
-TO BE ADDED
+![image](https://github.com/sonocotta/stm8s003-dev-board/assets/5459747/45ed0a8f-a25d-4bd4-a148-2691da45e4e8)
 
 ## MCU Pinout 
 
-TO BE ADDED
+![image](https://github.com/sonocotta/stm8s003-dev-board/assets/5459747/c9f1920d-3b20-4dc9-bd7b-12b9478671d3)
+
+## How to programm
+
+To program the STM8S microcontroller, you will need ST-LINK programmer or any compatible programmer supporting SWIM interface. Most common in the field is to use ST-Link USB dongle
+
+![image](https://github.com/sonocotta/stm8s003-dev-board/assets/5459747/8ad6dacd-b6f9-460d-8f93-675791bfa880)
+
+You need to connect GND, SWIM and RESET. +5V is optional as long as you power board from the USB
+
+![image](https://github.com/sonocotta/stm8s003-dev-board/assets/5459747/3ae82208-da56-4e56-a6ae-d475589cb3b9)
+
 
 ## TODO
 
@@ -55,6 +66,6 @@ TO BE ADDED
 
 ## Hardware
 
-Board schematic can be foun in [hardware](/hardware) section
+Board schematic can be found in the [hardware](/hardware) section
 
 ## Where to buy
