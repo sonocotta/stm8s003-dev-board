@@ -1,4 +1,4 @@
-# STM8S003 Development Board (Work in progress)
+# STM8S003 Development Board
 
 ![Open Source Hardware](/doc/images/open-source-hardware-logo.png)
 ![Open Source Software](/doc/images/open-source-software-logo.png)
