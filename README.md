@@ -111,7 +111,7 @@ Board schematic can be found in the [hardware](/hardware) section
 
 ## Where to buy
 
-TBD
+Available at [Tindie](https://www.tindie.com/products/sonocotta/stm8s003-development-board/)
 
 ## Links
 
