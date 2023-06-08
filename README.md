@@ -65,18 +65,36 @@ You need to connect GND, SWIM and RESET. +5V is optional as long as you power bo
 
 ![image](https://github.com/sonocotta/stm8s003-dev-board/assets/5459747/3ae82208-da56-4e56-a6ae-d475589cb3b9)
 
+### Arduino IDE
 
-## TODO
+Add [https://github.com/tenbaht/sduino/raw/master/package_sduino_stm8_index.json](https://github.com/tenbaht/sduino/raw/master/package_sduino_stm8_index.json) to the board manager
 
-- Arduino Core
-- How to flash
-- Using with Arduino IDE
-- Using with Platformio IDE
+![image](https://github.com/sonocotta/stm8s003-dev-board/assets/5459747/848c1d02-bcef-44e4-8aa7-0268ce2bbb41)
+
+After that you should install **sduino** from Board Manager
+
+![image](https://github.com/sonocotta/stm8s003-dev-board/assets/5459747/06826c66-ae04-4d27-8ccf-7e85def975dd)
+
+Select **STM8S103F3** as target and other necessary settings in the board settings after
+
+![image](https://github.com/sonocotta/stm8s003-dev-board/assets/5459747/aba9733c-d2da-422f-8c37-b8b57fe73110)
+
+Next press Build or Upload button, it should just work
+
+![image](https://github.com/sonocotta/stm8s003-dev-board/assets/5459747/1c6556ca-1988-452f-b325-d9659b8f1dc5)
+
+### Platformio IDE
+ 
+After installing [Plarformio IDE](https://platformio.org/platformio-ide), open sample [arduino project](/firmware/stm8-blink-arduino) or [native project](/firmware/stm8-blink-native). Run `Build` command to install necessary tools and libraries. 
+
+Next run `Upload: stm8s003-dev-board` task if you're using stlinkv2 programmer. `Monitor` task should give you Serial monitor, as long as you have your board connected via USB as well.
+
+## TODO (Work in Progress)
+
 - Firmware samples
   - UART
-  - RGB led
-  - Debugging
-  
+  - RGB led (requires library)
+  - Debugging (it should just work in Plarformio)  
 
 ## Hardware
 
