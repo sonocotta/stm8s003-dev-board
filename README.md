@@ -98,7 +98,7 @@ Next run `Upload: stm8s003-dev-board` task if you're using stlinkv2 programmer. 
 
 ## Hardware
 
-Board schematic can be found in the [hardware](/hardware) section
+The board schematic can be found in the [hardware](/hardware) section
 
 ![image](https://github.com/sonocotta/stm8s003-dev-board/assets/5459747/6fb33c9c-5b36-4d92-8bd5-f986b710f759)
 
@@ -111,7 +111,7 @@ Board schematic can be found in the [hardware](/hardware) section
 
 ## Where to buy
 
-Available at [Tindie](https://www.tindie.com/products/sonocotta/stm8s003-development-board/)
+Available at [Tindie](https://www.tindie.com/products/sonocotta/stm8s003-development-board/) and [Elecrow](https://www.elecrow.com/stm8s003-development-board.html)
 
 ## Links
 
